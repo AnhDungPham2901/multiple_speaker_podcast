@@ -8,7 +8,17 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 google-genai = "^1.2.0"
+openai = "^1.63.2"
+pydub = "^0.25.1"
+ffprobe-python = "^1.0.3"
+moviepy = "^2.1.2"
+boto3 = "^1.36.24"
+loguru = "^0.7.3"
+langchain-openai = "^0.3.7"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
